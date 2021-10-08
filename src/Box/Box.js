@@ -11,7 +11,7 @@ background-image: linear-gradient(to right, rgb(32, 40, 119), rgb(55, 46, 149), 
   width: 100vw;
   top:0;
   height:200vh;
- 
+  top:-70px;
   z-index:-1;
   margin-right: 80px;
   margin-left: -130px;

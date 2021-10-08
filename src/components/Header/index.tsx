@@ -3,7 +3,7 @@ import { Row, Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
-import Box from "../../Box/Box"
+
 import { Button } from "../../common/Button";
 import {
   HeaderSection,
@@ -43,7 +43,7 @@ const Header = ({ t }: any) => {
     }
     return (
       <>
-      <Box />
+ 
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>

@@ -9,7 +9,7 @@ export const FooterSection = styled("footer")`
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #953553;
+  color:inear-gradient(to right, rgb(32, 40, 119), rgb(55, 46, 149), rgb(83, 49, 177), rgb(114, 48, 205), rgb(150, 41, 230));
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -69,7 +69,7 @@ export const Large = styled(Link)<any>`
 `;
 
 export const Chat = styled("p")`
-  color: #953553;
+  color: inear-gradient(to right, rgb(32, 40, 119), rgb(55, 46, 149), rgb(83, 49, 177), rgb(114, 48, 205), rgb(150, 41, 230));
   max-width: fit-content;
   border-bottom: 1px solid #18216d;
   cursor: pointer;
@@ -129,7 +129,7 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color:#953553;
+  color:inear-gradient(to right, rgb(32, 40, 119), rgb(55, 46, 149), rgb(83, 49, 177), rgb(114, 48, 205), rgb(150, 41, 230));
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -139,7 +139,7 @@ export const Language = styled("h4")`
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
-  color:#953553;
+  color:inear-gradient(to right, rgb(32, 40, 119), rgb(55, 46, 149), rgb(83, 49, 177), rgb(114, 48, 205), rgb(150, 41, 230));
   display: block;
   margin-bottom: 2rem;
   font-family: "Motiva Sans Bold", serif;
